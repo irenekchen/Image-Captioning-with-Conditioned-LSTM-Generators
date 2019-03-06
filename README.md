@@ -2,7 +2,7 @@
 Constructing a basic image captioning system using an LSTM encoder-decoder model, with a pre-trained Convolution Neural Network (CNN) trained on an object detection task to compute image embeddings. 
 
 Components of LSTM encoder-decoder model:
-* Create matrices of image representations using an off-the-shelf image encoder.
+* Matrices of image representations using an off-the-shelf image encoder.
 * Read and preprocess the image captions.
 * Write a generator function that returns one training instance (input/output sequence pair) at a time.
 * Train an LSTM language generator on the caption data.
@@ -11,3 +11,5 @@ Components of LSTM encoder-decoder model:
 * Implement beam search for the image caption generator.
 
 The model is trained on Google's Cloud Computing Engine. 
+
+Examples of generated image captions can be found in the jupyter notebook.
